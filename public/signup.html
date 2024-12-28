@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="login.css" rel="stylesheet">
+<title>Sign Up</title>
+</head>
+<body>
+  <!-- http://127.0.0.1:5000/signup -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hotel-Resort</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/templates/index.html">Home</a></li>
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/shop.html
+            ">Shop</a></li>
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/about.html
+            ">About us</a></li>
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/services.html
+            ">Services</a></li>
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/blog.html
+            ">Blog</a></li>
+          <li><a class="nav-link" href="file:///C:/Users/Trupti%20Parsai/OneDrive/Desktop/furni-1.0.0/contact.html
+            ">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="sign">
+    <h2>Sign Up</h2>
+    <form action="/signup" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="signin.html">Sign In</a></p>
+</div>
+</body>
+</html>
